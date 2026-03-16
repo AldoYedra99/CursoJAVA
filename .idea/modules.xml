@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Semana1/Dia1/Dia1.iml" filepath="$PROJECT_DIR$/Semana1/Dia1/Dia1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_for_Backend.iml" filepath="$PROJECT_DIR$/JAVA_for_Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semana1/Semana1.iml" filepath="$PROJECT_DIR$/Semana1/Semana1.iml" />
+    </modules>
+  </component>
+</project>
