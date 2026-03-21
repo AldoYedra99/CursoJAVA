@@ -6,12 +6,11 @@ public class Main {
 
         Producto p1 = new Producto();
 
-        System.out.print("Ingrese el nombre del producto: ");
+        System.out.print("Producto: ");
         p1.nombre=obj.nextLine();
-        System.out.print("Ingrese precio del Producto: ");
+        System.out.print("Precio : ");
         p1.precio=obj.nextDouble();
 
-        System.out.println("Producto: "+p1.nombre);
-        System.out.println("Precio: "+p1.precio);
+        p1.mostrarProducto();
     }
 }
