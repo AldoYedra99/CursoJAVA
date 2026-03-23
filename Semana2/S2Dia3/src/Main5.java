@@ -15,8 +15,8 @@ public class Main5 {
 
         Ejercicio5 admin = new Ejercicio5(username,password,rol);
 
-        System.out.println("usuario: "+username);
-        System.out.println("password: "+password);
-        System.out.println("rol: "+rol);
+        System.out.println("usuario: "+admin.username);
+        System.out.println("password: "+admin.password);
+        System.out.println("rol: "+admin.rol);
     }
 }
