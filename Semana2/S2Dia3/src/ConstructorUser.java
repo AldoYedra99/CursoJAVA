@@ -6,6 +6,8 @@ public class ConstructorUser {
 
         this.nombre= nombre;
         this.edad=edad;
+        //this significa "Este objeto actual, la variable nombre del objeto
+        //recibe el valor del parámetro nombre"
 
     }
 }
