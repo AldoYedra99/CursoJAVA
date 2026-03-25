@@ -9,13 +9,14 @@ public class Main1 {
         System.out.print("1- Nombre :");
         emp.nombre = obj.nextLine();
 
-        System.out.print("2- Edad: ");
+        /*System.out.print("2- Edad: ");
         emp.edad = obj.nextInt();
 
         System.out.print("3- Salario: ");
-        emp.salario = obj.nextInt();
+        emp.salario = obj.nextInt();(*/
 
-        System.out.println("1- "+emp.nombre+"\n2- "
-        +emp.edad+"\n3- "+emp.salario);
+        emp.saludar();
+        //System.out.println("2- "
+        //+emp.edad+"\n3- "+emp.salario);
     }
 }
