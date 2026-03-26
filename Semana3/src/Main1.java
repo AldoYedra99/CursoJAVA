@@ -6,6 +6,7 @@ public class Main1 {
 
         Polimorfismo1 p1 = new Empleado1();
         Polimorfismo1 p2 = new Estudiante1();
+        Polimorfismo1 p3 = new Polimorfismo1();
 
         System.out.print("Nombre: ");
         p1.nombre=obj.nextLine();
@@ -13,7 +14,11 @@ public class Main1 {
         System.out.print("Nombre: ");
         p2.nombre=obj.nextLine();
 
+        System.out.print("Nombre ");
+        p3.nombre=obj.nextLine();
+
         p1.mostrarRol();
         p2.mostrarRol();
+        p3.mostrarRol();
     }
 }
