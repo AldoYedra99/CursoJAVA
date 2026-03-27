@@ -4,13 +4,6 @@ public class Main2 {
     public static void main(String []args){
         Scanner obj = new Scanner(System.in);
 
-        /*Usuario2 User1 = new Usuario2();
-        Usuario2 Admin1 = new Admin2();
-        Usuario2 Cli1 = new Cliente2();
-
-        //System.out.print("Ingrese el ID del Usuario");
-        User1.mostrarPermisos();*/
-
         Usuario2 User1 = new Usuario2();
         Usuario2 Admin1 = new Admin2();
         Usuario2 Cli1 = new Cliente2();
