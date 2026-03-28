@@ -1,7 +1,7 @@
-public class Perro extends Animal{
+public class Perro implements Animal{
 
     @Override
-    public void hacerSonido() {
+    public void hacerSonido(){
         System.out.println("El perro ladra");
     }
 }
