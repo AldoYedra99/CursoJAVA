@@ -10,7 +10,7 @@ public class LambaEjemplo {
         int cantidad = obj.nextInt();
 
         for (int i = 0; i < cantidad; i++) {
-            System.out.println("Numeros:"+(i+1));
+            System.out.print("Numero "+(i+1)+":");
             int num = obj.nextInt();
 
             numeros.add(num);
