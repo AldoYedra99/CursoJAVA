@@ -30,11 +30,16 @@ public class Main {
                 .forEach(u -> System.out.println(u.nombre+" | "+u.edad));*/
 
         //Buscar por nombre
-        System.out.print("Ingrese Nombre del usuario: ");
+        /*System.out.print("Ingrese Nombre del usuario: ");
         String nom = obj.nextLine();
         usuarios.stream()
                 .filter(u -> u.nombre.equals(nom))
                 .findFirst()
-                .ifPresent(u -> System.out.println(u.nombre+" | "+u.edad));
+                .ifPresent(u -> System.out.println(u.nombre+" | "+u.edad));*/
+
+        //Convertir datos (map)
+        usuarios.stream()
+                .map(u -> u.nombre)
+                .forEach(System.out::println);
     }
 }
